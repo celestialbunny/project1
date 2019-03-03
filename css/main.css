@@ -1,0 +1,46 @@
+.carousel {
+	width: 100%;
+	background-position: center center;
+}
+
+.thin-line {
+	background-color: white;
+	width: 4em;
+	height: 0.07em;
+}
+
+.carousel-item img {
+	overflow: hidden;
+}
+
+.carousel-indicators li {
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 0.07em solid white;
+}
+
+.carousel-caption {
+	background-image:
+		linear-gradient(to right,
+		#00000000,
+		#0000007a 50%,
+		#0000007a 50%,
+		#00000000);
+	bottom: 5em;
+	left: 30%;
+	right: 30%;
+}
+
+.small-title {
+	font-size: 1em;
+}
+
+.big-caption {
+	font-size: 1.3em;
+}
+
+.carousel-indicators .active {
+	background-color: #FFF;
+}
